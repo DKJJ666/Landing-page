@@ -1,0 +1,33 @@
+.store{
+background:#57d9ce;
+padding:6rem 3rem;
+text-align:center;
+}
+
+.store h1{
+font-size:5rem;
+font-weight:900;
+margin-bottom:3rem;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:2rem;
+}
+
+.card{
+background:white;
+padding:2rem;
+transition:.3s;
+}
+
+.card:hover{
+transform:rotate(-3deg) scale(1.03);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:contain;
+}

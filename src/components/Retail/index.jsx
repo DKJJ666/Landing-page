@@ -1,4 +1,4 @@
-function Carrosel2() {
+function Retail() {
     const texto = " RETAIL  RETAIL  RETAIL  RETAIL  RETAIL  RETAIL  ";
     
     return (
@@ -10,4 +10,4 @@ function Carrosel2() {
     );
 }
 
-export default Carrosel2;
+export default Retail;

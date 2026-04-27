@@ -1,4 +1,4 @@
-function Carrosel() {
+function Tour() {
     const texto = " TOUR  TOUR  TOUR  TOUR  TOUR  TOUR  ";
     
     return (
@@ -10,4 +10,4 @@ function Carrosel() {
     );
 }
 
-export default Carrosel;
+export default Tour;

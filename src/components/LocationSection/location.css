@@ -1,0 +1,66 @@
+.retail{
+background:#f7f2eb;
+padding:5rem 3rem;
+}
+
+.marquee{
+background:#eac6c7;
+overflow:hidden;
+padding:20px;
+font-weight:800;
+}
+
+.cities{
+display:flex;
+gap:2rem;
+justify-content:center;
+margin:50px 0;
+}
+
+.cities button{
+border:none;
+background:none;
+font-weight:700;
+cursor:pointer;
+}
+
+.active{
+text-decoration:underline;
+}
+
+.retail-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:4rem;
+}
+
+.info{
+max-width:300px;
+color:#9c7d76;
+}
+
+.star-image{
+width:420px;
+aspect-ratio:1;
+overflow:hidden;
+
+clip-path: polygon(
+50% 0%,
+61% 35%,
+98% 35%,
+68% 57%,
+79% 91%,
+50% 70%,
+21% 91%,
+32% 57%,
+2% 35%,
+39% 35%
+);
+}
+
+.star-image img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
