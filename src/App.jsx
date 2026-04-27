@@ -10,7 +10,6 @@ import OurStore from './components/OurStore'
 import LookBook from './components/LookBook'
 import Retail from './components/Retail'
 import LocationSection from "./components/LocationSection";
-import StoreSection from "./components/StoreSection";
 import Footer from './components/Footer'
 
 
@@ -19,7 +18,6 @@ function App() {
   return (
     <>
     <LocationSection />
-      <StoreSection />
       <Sidebar />
       <main className="main-content">
         <Hero />
