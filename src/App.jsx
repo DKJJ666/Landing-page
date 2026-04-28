@@ -17,7 +17,7 @@ function App() {
   
   return (
     <>
-    <LocationSection />
+    
       <Sidebar />
       <main className="main-content">
         <Hero />
@@ -25,6 +25,7 @@ function App() {
         <OurStore />
         <LookBook />
         <Retail />
+        <LocationSection />
         <Footer />
       </main>
     </>
